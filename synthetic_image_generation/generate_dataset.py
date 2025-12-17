@@ -18,6 +18,9 @@ This code provide an example of how you can create a dataset of synthetic images
 This code was used to generate the benchmark dataset itself.
 """
 
+
+os.makedirs("../output/dataset/", exist_ok = True)
+
 # Where to write the benchmark generator
 output_folder = "../output/dataset/"
 

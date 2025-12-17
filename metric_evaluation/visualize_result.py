@@ -240,6 +240,8 @@ tex_names_error = {"radius_erosion" : "rad. erosion", "radius_dilation" : "rad. 
 
 
 save_plot = False
+
+os.makedirs("../output/images/", exist_ok = True)
 output_folder = "../output/images/"
 
 categories = ["false_component", "missing_component", "missing_component_and_false_component", "component_merging", "disconnection", "cycle_disconnection", "hole_merging", "merging", "hole"]

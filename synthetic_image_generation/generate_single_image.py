@@ -9,10 +9,13 @@ from ErrorGenerator import ErrorGenerator
 import numpy as np
 from PIL import Image
 from utils import *
+import os
 
 """
 This code provide an example of how you can add an error to an image.
 """
+
+os.makedirs("../output/single_image/", exist_ok = True)
 
 # Load label 
 file = "../data/playground/dataset1/img1.png"
